@@ -57,10 +57,10 @@ asyntia/
 
 ## Como Contribuir
 1. Faça um fork deste repositório.
-2. Crie um branch para sua funcionalidade (`git checkout -b feature/nova-funcionalidade`).
+2. Crie um branch para sua funcionalidade(`git checkout -b feature/nova-funcionalidade`).
 3. Commit suas alterações (`git commit -m 'Adiciona nova funcionalidade'`).
 4. Faça um push para o branch (`git push origin feature/nova-funcionalidade`).
 5. Abra um pull request.
 
-## Contato
-Para dúvidas ou suporte, entre em contato pelo e-mail **suporte@asyntia.com**.
+<!--## Contato*/
+Para dúvidas ou suporte, entre em contato pelo e-mail **suporte@asyntia.com**.*/-->
