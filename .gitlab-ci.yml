@@ -1,0 +1,26 @@
+stages:
+  - test
+  - build
+  - deploy
+
+test_job:
+  stage: test
+  image: node:16
+  script:
+    - npm install
+    - npm test
+
+build_job:
+  stage: build
+  image: node:16
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - dist/
+
+deploy_job:
+  stage: deploy
+  script:
+    - echo "Deploy logic goes here."
