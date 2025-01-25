@@ -1,12 +1,12 @@
-import React from 'react';
-import './App.css';
+const express = require('express');
+const app = express();
 
-const App = () => {
-  return (
-    <div>
-      <h1>Bem-vindo à Asyntia</h1>
-    </div>
-  );
-};
+const PORT = process.env.PORT || 5000;
 
-export default App;
+app.get('/', (req, res) => {
+  res.send('Backend is working!');
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
